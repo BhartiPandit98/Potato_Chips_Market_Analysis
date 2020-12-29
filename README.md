@@ -6,7 +6,7 @@
 
 # Code and Resources Used
 - Python Version: 3.7
-- Packages: pandas, numpy, sklearn, matplotlib
+- Packages: pandas, numpy, sklearn, matplotlib, plotly
 - Scraper Data:
     - https://github.com/BhartiPandit98/Potato_chips_market_analysis/blob/main/QVI_transaction_data.xlsx
     - https://github.com/BhartiPandit98/Potato_chips_market_analysis/blob/main/QVI_purchase_behaviour.csv
@@ -41,3 +41,13 @@ After scraping the data, I needed to clean it up so that it was usable for our m
 # EDA
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables.
 
+![alt](https://github.com/BhartiPandit98/Potato_chips_market_analysis/blob/main/Packet%20size%20distribution.JPG)
+
+![alt](https://github.com/BhartiPandit98/Potato_chips_market_analysis/blob/main/Correlation.JPG)
+
+![alt](https://github.com/BhartiPandit98/Potato_chips_market_analysis/blob/main/Brand%20distribution.JPG)
+
+# Model Building
+First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.
+
+I applied KMeans Clustering and plotted graph using plotly to visualize the characteristics of the clusters. The model gave diverse clusters and showed the characteristics of different clusters.
