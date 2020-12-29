@@ -7,4 +7,7 @@
 # Code and Resources Used
 - Python Version: 3.7
 - Packages: pandas, numpy, sklearn, matplotlib
-- Scraper Data: 
+- Scraper Data:
+    - https://github.com/BhartiPandit98/Potato_chips_market_analysis/blob/main/QVI_transaction_data.xlsx
+    - https://github.com/BhartiPandit98/Potato_chips_market_analysis/blob/main/QVI_purchase_behaviour.csv
+
